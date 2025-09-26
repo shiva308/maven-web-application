@@ -98,7 +98,7 @@
 		<repository>
 	      <id>nexus</id>
 	      <name>mavenpackagesnapshot</name>
-	      <url>http:13.51.150.241:8081/repository/walmart-snapshot/</url>
+	      <url>http://13.51.150.241:8081/repository/walmart-snapshot/</url>
 	    </repository>
 		
 	    <snapshotRepository>
