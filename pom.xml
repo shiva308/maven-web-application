@@ -94,12 +94,20 @@
 	
 	<distributionManagement>
 	
-	   
+
+		<repository>
+	      <id>nexus</id>
+	      <name>mavenpackagesnapshot</name>
+	      <url>http://13.51.150.241:8081/repository/mavenpackagesnapshot/</url>
+	    </repository>
+		
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>mavenpackage</name>
 	      <url>http://13.51.150.241:8081/repository/mavenpackage/</url>
 	    </snapshotRepository>
+
+		
 	    
 	</distributionManagement>
 	
