@@ -95,20 +95,18 @@
 	<distributionManagement>
 	
 
-		<repository>
-	      <id>nexus</id>
+		<snapshotRepository>
+	      <id>nexus-snapshots</id>
 	      <name>mavenpackagesnapshot</name>
 	      <url>http://13.51.150.241:8081/repository/walmart-snapshot/</url>
-	    </repository>
+	    </snapshotRepository>
 		
-	    <snapshotRepository>
-	      <id>nexus</id>
+	    <repository>
+	      <id>nexus-releases</id>
 	      <name>mavenpackage</name>
 	      <url>http://13.51.150.241:8081/repository/walmart-release/</url>
-	    </snapshotRepository>
-
-		
-	    
+	    </repository>
+		    
 	</distributionManagement>
 	
 	<build>
